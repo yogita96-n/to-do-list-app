@@ -16,7 +16,7 @@ def markcompleted_task():
       marked=listbox_task.curselection()
       temp=marked[0]
       temp_marked=listbox_task.get(marked)
-      temp_marked=temp_marked+" DONE!!!!!!! "
+      temp_marked=temp_marked+" ✔️ "
       listbox_task.delete(temp)
       listbox_task.insert(temp,temp_marked)
 
